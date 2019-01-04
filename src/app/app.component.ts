@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project-app';
+  navigationNameSelected: string;
+  onNavigate(navigationName: string) {
+    this.navigationNameSelected = navigationName;
+  }
 }
