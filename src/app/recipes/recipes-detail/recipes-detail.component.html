@@ -23,8 +23,8 @@
       <ul class="dropdown-menu">
         <li>
           <a (click)="onAddIngredientToShoppingList()" style="cursor: pointer" >Add to shopping List</a>
-          <a>Edit Recipe</a>
-          <a>Delete Recipe</a>
+          <a (click)="onEdit()" style="cursor: pointer">Edit Recipe</a>
+          <a (click)="onDelete()" style="cursor: pointer">Delete Recipe</a>
         </li>
       </ul>
     </div>
