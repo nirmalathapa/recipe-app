@@ -36,4 +36,5 @@ export class RecipesDetailComponent implements OnInit {
     // this.router.navigate(['../', this.id, 'edit'], {relativeTo: this.route});  more complex way of navigating path using id with ../
   }
 
+
 }
